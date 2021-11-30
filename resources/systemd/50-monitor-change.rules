@@ -1,0 +1,2 @@
+
+ACTION=="change", KERNEL=="card0" ,ENV{DISPLAY}=":0" , ENV{XAUTHORITY}="/home/seba/.config/Xauthority", RUN+="/usr/bin/xrandr --output HDMI-0 --mode 1920x1080 --same-as HDMI-1 "
