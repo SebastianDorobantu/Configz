@@ -180,6 +180,7 @@ alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 # Shortcuts
 alias 3mon='xrandr --output HDMI-1 --auto --same-as HDMI-0'
 alias ww='nvim $DROPBOX/wiki/index.md'
+alias fuck='thefuck'
 
 
 ######EXTRACTOR#################################################################
